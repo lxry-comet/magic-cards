@@ -12,8 +12,7 @@ function TaroList({ items }) {
   if (!cards.length) return <p style={{ color: '#fff', textAlign: 'center' }}>No cards to display</p>
 
   return (
-    <div >
-
+    <>
       <ul
         style={{
           display: 'flex',
@@ -57,7 +56,7 @@ function TaroList({ items }) {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   )
 }
 
