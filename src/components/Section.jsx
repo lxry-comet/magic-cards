@@ -19,7 +19,6 @@ function Section({ title, children }) {
         marginBottom: '40px'
       }}
       >{title}</h2>} 
-
       {children}
     </section>
   );
